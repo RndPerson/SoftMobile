@@ -1,0 +1,85 @@
+body {
+	background-color: #a0a0a0;
+}
+
+
+header{
+	background-color: white;
+	height: 50px;
+}
+
+header a{
+	text-decoration: none;
+    background:blue;
+    color: white;
+    padding:0px 15px;
+    line-height:50px;
+    display: block; 
+    border-right: 1px solid gray;
+}
+
+.logo {
+	height: 50px;
+	float: left;
+	margin-left:5%;
+}
+
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top:25px; 
+  background:blue;
+  height: 50px;
+}
+
+
+.menu li {
+float: left;
+display: inline-block;
+}
+
+
+li :hover {
+background-color: red;
+}
+
+#StartButton {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.StartButton {
+	background-color: green;
+	display: inline-block;
+	height: 50px;
+    line-height: 50px;
+    position: relative;
+	margin-left: 45%;
+	margin-top: 20%;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+.StartButton:hover {
+	background-color: red;
+}
+
+#start, #about, #top {
+	background: black;
+}
+
+.content {
+	background-image: url(../img/doodles.png);
+	background-repeat: repeat-x-y;
+	height:500px;
+}
+
+ol {
+	padding-left: 45%;
+	padding-top: 5%;
+	font-size: 20pt;
+	font-weight: bold;
+}
